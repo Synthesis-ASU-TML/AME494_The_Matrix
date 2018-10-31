@@ -8,6 +8,8 @@ color-video
 color-brcosa
 color-displace
 wave
+syphon-color
+syphon-height
 manual-board
 visualizer
 height-spot-preview
@@ -20,6 +22,9 @@ wave-preview
 wave-invert-preview
 color-brcosa-preview
 brownian-preview
+syphon-preview
+syphon-color-preview
+syphon-height-preview
 mix-1
 mix-2
 mix-3

@@ -10,6 +10,8 @@ wave
 manual-board
 color-brcosa
 brownian
+syphon-height
+syphon-color
 mix-1
 mix-2
 mix-3

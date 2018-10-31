@@ -2,7 +2,7 @@
 	"name" : "f3-effects",
 	"version" : 1,
 	"creationdate" : -700852159,
-	"modificationdate" : 3623830833,
+	"modificationdate" : 3623831921,
 	"viewrect" : [ 63.0, 145.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -205,6 +205,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"f3.fx.syphon.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -271,6 +276,11 @@
 			}
 ,
 			"Grid_5x6_invert.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"Grid_15iStage.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
