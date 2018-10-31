@@ -1,8 +1,8 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : -700852038,
-	"modificationdate" : -693495707,
+	"creationdate" : -700852159,
+	"modificationdate" : 3623830833,
 	"viewrect" : [ 63.0, 145.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -60,11 +60,6 @@
 				"local" : 1
 			}
 ,
-			"f3.barycentric.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"f3.fx.fluid.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -116,6 +111,11 @@
 				"toplevel" : 1
 			}
 ,
+			"f3.lights.calibrate.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"f3.prev.plane.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -161,11 +161,6 @@
 				"local" : 1
 			}
 ,
-			"f3.lights.calibrate.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"f3.prev.vis.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -207,11 +202,6 @@
 			}
 ,
 			"Unit_Grid_Generator.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"f3.fx.entity.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
