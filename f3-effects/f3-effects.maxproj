@@ -1,8 +1,8 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : -700852159,
-	"modificationdate" : 3623831921,
+	"creationdate" : 2082819598,
+	"modificationdate" : 3625491717,
 	"viewrect" : [ 63.0, 145.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -196,6 +196,11 @@
 				"local" : 1
 			}
 ,
+			"f3.fx.syphon.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"f3.fx.height-surfce.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -206,7 +211,7 @@
 				"local" : 1
 			}
 ,
-			"f3.fx.syphon.maxpat" : 			{
+			"f3.fx.color-gradient.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -281,6 +286,11 @@
 			}
 ,
 			"Grid_15iStage.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"palette_tex_list.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}

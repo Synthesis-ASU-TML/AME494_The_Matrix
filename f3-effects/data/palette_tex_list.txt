@@ -1,0 +1,13 @@
+height-spot-preview
+height-plane-preview
+height-greyscale-preview
+color-video-preview
+cnoise-preview
+color-displace-preview
+wave-preview
+wave-invert-preview
+color-brcosa-preview
+brownian-preview
+syphon-preview
+syphon-color-preview
+syphon-height-preview

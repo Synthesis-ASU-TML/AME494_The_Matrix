@@ -7,6 +7,7 @@ cnoise
 color-video
 color-brcosa
 color-displace
+color-gradient
 wave
 syphon-color
 syphon-height
@@ -21,6 +22,7 @@ color-displace-preview
 wave-preview
 wave-invert-preview
 color-brcosa-preview
+color-gradient-preview
 brownian-preview
 syphon-preview
 syphon-color-preview

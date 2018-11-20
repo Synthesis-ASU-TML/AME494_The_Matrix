@@ -9,6 +9,7 @@ color-displace
 wave
 manual-board
 color-brcosa
+color-gradient
 brownian
 syphon-height
 syphon-color
