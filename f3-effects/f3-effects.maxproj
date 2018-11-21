@@ -1,8 +1,8 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082819598,
-	"modificationdate" : 3625491717,
+	"creationdate" : 2082819477,
+	"modificationdate" : -669319513,
 	"viewrect" : [ 63.0, 145.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -131,6 +131,10 @@
 				"local" : 1
 			}
 ,
+			"thru.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
 			"f3.pozyx.serial.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -196,7 +200,33 @@
 				"local" : 1
 			}
 ,
+			"sc.texture.syphon.input.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
 			"f3.fx.syphon.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sc.texture.roi.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"f3.blobtracker.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"cv.jit.blobs.centroids.draw.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"sc.matrix.camera.simple.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"f3.gyrosc.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
