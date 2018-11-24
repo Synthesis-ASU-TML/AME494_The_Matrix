@@ -1,8 +1,8 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082819598,
-	"modificationdate" : 3625491717,
+	"creationdate" : 2082819477,
+	"modificationdate" : 3625836843,
 	"viewrect" : [ 63.0, 145.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -201,6 +201,11 @@
 				"local" : 1
 			}
 ,
+			"f3.fx.color-gradient.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"f3.fx.height-surfce.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -211,7 +216,7 @@
 				"local" : 1
 			}
 ,
-			"f3.fx.color-gradient.maxpat" : 			{
+			"Glove_Input.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
