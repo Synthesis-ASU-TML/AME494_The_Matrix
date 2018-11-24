@@ -11,3 +11,4 @@ brownian-preview
 syphon-preview
 syphon-color-preview
 syphon-height-preview
+camera-input-preview
