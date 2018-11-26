@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x64",
+			"revision" : 5,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 161.0, 79.0, 1171.0, 758.0 ],
+		"rect" : [ 191.0, 248.0, 862.0, 622.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,35 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-208",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "f3.presence.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1161.833252, 1490.833374, 202.33342, 217.666656 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 326.5, 1126.833374, 197.0, 448.333344 ],
+					"varname" : "f3.presence",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-197",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 996.0, 1354.0, 273.0, 22.0 ],
+					"patching_rect" : [ 1311.666626, 1954.0, 273.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture Forest @name camera-input-preview"
 				}
@@ -100,31 +123,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-220",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1540.0, 1361.0, 83.0, 22.0 ],
-					"style" : "",
-					"text" : "r videostream"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-219",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1305.0, 1370.0, 85.0, 22.0 ],
-					"style" : "",
-					"text" : "s videostream"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -138,7 +136,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1573.5, 1397.5, 198.5, 138.0 ],
+					"patching_rect" : [ 1700.166626, 1485.5, 198.5, 138.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 612.5, 948.5, 198.5, 138.0 ],
 					"viewvisibility" : 1
@@ -160,7 +158,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 1305.0, 1141.0, 233.0, 215.0 ],
+					"patching_rect" : [ 1345.166626, 1177.0, 233.0, 215.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.0, 811.5, 233.0, 215.0 ],
 					"varname" : "sc.matrix.camera.simple",
@@ -183,7 +181,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1218.0, 1397.5, 342.0, 195.0 ],
+					"patching_rect" : [ 1608.166626, 1218.333252, 342.0, 195.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.5, 902.5, 341.0, 199.0 ],
 					"varname" : "f3.blobtracker",
@@ -198,7 +196,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1305.0, 1109.0, 97.0, 22.0 ],
+					"patching_rect" : [ 1345.166626, 1145.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-renderbang"
 				}
@@ -337,8 +335,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -378,7 +376,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 249.916626, 91.0, 22.0 ],
 									"style" : "",
-									"text" : "2009.562575"
+									"text" : "2003.330933"
 								}
 
 							}
@@ -766,8 +764,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -919,8 +917,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1083,8 +1081,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x64",
+											"revision" : 5,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1536,7 +1534,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-172", 0 ],
-									"midpoints" : [ 630.833333, 384.0, 449.5, 384.0 ],
+									"midpoints" : [ 630.833313, 384.0, 449.5, 384.0 ],
 									"source" : [ "obj-194", 1 ]
 								}
 
@@ -1544,7 +1542,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-176", 0 ],
-									"midpoints" : [ 642.166667, 384.0, 716.5, 384.0 ],
+									"midpoints" : [ 642.166687, 384.0, 716.5, 384.0 ],
 									"source" : [ "obj-194", 2 ]
 								}
 
@@ -1694,8 +1692,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1884,8 +1882,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2040,8 +2038,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2228,8 +2226,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3420,7 +3418,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
-					"patching_rect" : [ 1793.0, 1397.5, 220.0, 197.0 ],
+					"patching_rect" : [ 1919.666626, 1485.5, 220.0, 197.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 813.0, 908.5, 220.0, 197.0 ],
 					"varname" : "f3.fx.height-wave[1]",
@@ -3745,8 +3743,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4136,7 +4134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1908.0, 1749.0, 265.0, 22.0 ],
+					"patching_rect" : [ 2034.666626, 1837.0, 265.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture Forest @name wave-invert-preview"
 				}
@@ -4154,8 +4152,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4263,7 +4261,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2076.0, 1585.0, 88.0, 22.0 ],
+					"patching_rect" : [ 2202.666748, 1673.0, 88.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.pix Forest"
 				}
@@ -4276,7 +4274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1923.0, 1636.0, 231.0, 22.0 ],
+					"patching_rect" : [ 2049.666748, 1724.0, 231.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture Forest @name wave-preview"
 				}
@@ -4302,7 +4300,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1793.0, 1354.0, 68.0, 22.0 ],
+					"patching_rect" : [ 1919.666626, 1450.0, 68.0, 22.0 ],
 					"style" : "",
 					"text" : "calculate 1"
 				}
@@ -4315,7 +4313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 1803.0, 1673.0, 186.0, 22.0 ],
+					"patching_rect" : [ 1929.666626, 1761.0, 186.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture Forest @name wave"
 				}
@@ -4346,8 +4344,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4486,8 +4484,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -5073,8 +5071,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -7336,7 +7334,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 609.5, 194.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 26, 342, 461, 1018 ],
+						"client_rect" : [ 25, 44, 808, 900 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
@@ -8325,16 +8323,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-197", 0 ],
-					"order" : 1,
-					"source" : [ "obj-217", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-219", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-208", 1 ],
 					"source" : [ "obj-217", 0 ]
 				}
 
@@ -8369,13 +8358,6 @@
 					"midpoints" : [ 317.5, 336.0, 273.0, 336.0, 273.0, 216.0, 85.5, 216.0 ],
 					"order" : 2,
 					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-210", 1 ],
-					"source" : [ "obj-220", 0 ]
 				}
 
 			}
@@ -9206,112 +9188,112 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "f3.lights.calibrate.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.in.roi.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.in.units.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Forest3.json",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/data",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.in.stream.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.cal.file.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-spot.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fxcombine.genjit",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/code",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-plane.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.black.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.vidplayer.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.color-videoSample.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.prev.plane.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-greyscale.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.cnoise.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnoise3.genjit",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/code",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
@@ -9324,105 +9306,105 @@
 			}
 , 			{
 				"name" : "f3.pozyx.serial.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.mix.textures.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.mix.final.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.artnet.matrix.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.height.scale-slide.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.artnet.out.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.color-displace.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.prev.vis.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.color-brcosa.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.manual.board.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.unit.manual.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.preset.menu.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.height-wave.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.angles.scale.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.brownian.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -9430,13 +9412,13 @@
 , 			{
 				"name" : "sc.texture.syphon.input.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.syphon.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -9444,13 +9426,13 @@
 , 			{
 				"name" : "sc.texture.roi.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.blobtracker.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -9458,29 +9440,50 @@
 , 			{
 				"name" : "cv.jit.blobs.centroids.draw.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/cv.jit/patchers",
-				"patcherrelativepath" : "../../../../Packages/cv.jit/patchers",
+				"patcherrelativepath" : "../../../../../Packages/cv.jit/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.matrix.camera.simple.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/matrix",
-				"patcherrelativepath" : "../../../../Packages/SC/patchers/video/matrix",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/video/matrix",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.gyrosc.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f3.fx.color-gradient.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/f3-effects/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f3.presence.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/AME494_The_Matrix/AME494_The_Matrix/f3-effects/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sc.texture.presence.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../Packages/SC/patchers/video/texture",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bypass_dummy.genjit",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../Packages/SC/code",
+				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{

@@ -1,8 +1,8 @@
 {
 	"name" : "f3-effects",
 	"version" : 1,
-	"creationdate" : 2082819477,
-	"modificationdate" : -669319513,
+	"creationdate" : 2082819356,
+	"modificationdate" : -668891324,
 	"viewrect" : [ 63.0, 145.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -50,12 +50,12 @@
 				"local" : 1
 			}
 ,
-			"f3.artnet.combine.maxpat" : 			{
+			"f3.artnet.list.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"f3.artnet.list.maxpat" : 			{
+			"f3.artnet.combine.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -231,17 +231,17 @@
 				"local" : 1
 			}
 ,
+			"f3.fx.color-gradient.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"f3.fx.height-surfce.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"Unit_Grid_Generator.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"f3.fx.color-gradient.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -285,6 +285,11 @@
 		}
 ,
 		"data" : 		{
+			"Forest3.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"Grid.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
