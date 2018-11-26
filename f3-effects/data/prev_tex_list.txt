@@ -28,6 +28,7 @@ syphon-preview
 syphon-color-preview
 syphon-height-preview
 camera-input-preview
+presence-preview
 mix-1
 mix-2
 mix-3
