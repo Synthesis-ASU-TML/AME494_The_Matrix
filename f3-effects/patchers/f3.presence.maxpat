@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 373.0, 188.0, 858.0, 644.0 ],
+		"rect" : [ 373.0, 188.0, 658.0, 644.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 521.0, 113.0, 122.0, 22.0 ],
+					"patching_rect" : [ 654.0, 212.0, 122.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess memory 1."
 				}
@@ -70,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.0, 366.0, 30.0, 30.0 ],
+					"patching_rect" : [ 282.0, 416.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -195,7 +195,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "jit_gl_texture", "" ],
-					"patching_rect" : [ 458.0, 151.0, 201.0, 165.0 ],
+					"patching_rect" : [ 458.0, 266.0, 201.0, 165.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 49.0, 201.0, 165.0 ],
 					"varname" : "sc.texture.presence",
@@ -277,14 +277,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-203", 0 ],
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-3", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-3", 1 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
